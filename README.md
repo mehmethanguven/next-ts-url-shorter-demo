@@ -6,6 +6,23 @@ Mehmethan Guven
 <br/>
 <a href='mailto:mehmethanguven@gmail.com<'>mehmethanguven@gmail.com</a>
 
+## Support
+
+If you like please give a star.
+
+## Reference
+
+[Tailwind CSS From Scratch | Learn By Building Projects](https://www.udemy.com/course/tailwind-from-scratch/)
+
+## Live on Vercel
+
+<a href="https://next-ts-url-shorter-demo-mehmethanguven.vercel.app//" target="_blank">Live Preview</a>
+
+## Some Screenshots
+
+<img src="public/images/demo1.png" alt="demo" style="height: 600px; width:800px; margin: 10px;"/>
+<img src="public/images/demo2.png" alt="demo" style="height: 600px; width:800px; margin: 10px;"/>
+
 ## Getting Started
 
 Install, run and test the development server:
