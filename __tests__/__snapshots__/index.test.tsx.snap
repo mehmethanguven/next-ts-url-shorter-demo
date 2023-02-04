@@ -1,0 +1,581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should to match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class=""
+  >
+    <div>
+      <nav
+        class="container relative mx-auto p-6"
+      >
+        <div
+          class="flex items-center justify-between"
+        >
+          <div
+            class="flex items-center space-x-20"
+          >
+            <img
+              alt=""
+              class="hidden h-8 w-auto md:flex"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="/images/logo.svg"
+              style="color: transparent;"
+              width="0"
+            />
+            <div
+              class="hidden space-x-8 font-bold md:flex"
+            >
+              <a
+                class="capitalize text-grayishViolet hover:text-veryDarkViolet"
+                href="#features"
+              >
+                features
+              </a>
+              <a
+                class="capitalize text-grayishViolet hover:text-veryDarkViolet"
+                href="#pricing"
+              >
+                pricing
+              </a>
+              <a
+                class="capitalize text-grayishViolet hover:text-veryDarkViolet"
+                href="#resources"
+              >
+                resources
+              </a>
+            </div>
+          </div>
+          <div
+            class="hidden items-center space-x-6 font-bold text-grayishViolet md:flex"
+          >
+            <a
+              class="capitalize text-grayishViolet hover:text-veryDarkViolet"
+              href="/login"
+            >
+              login
+            </a>
+            <a
+              class="capitalize text-grayishViolet hover:text-veryDarkViolet rounded-full bg-cyan-700 px-8 py-3 font-bold text-white hover:opacity-70"
+              href="/siqnup"
+            >
+              sign up
+            </a>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between"
+        >
+          <img
+            alt=""
+            class="h-6 w-auto md:hidden"
+            data-nimg="1"
+            decoding="async"
+            height="0"
+            loading="lazy"
+            src="/images/logo.svg"
+            style="color: transparent;"
+            width="0"
+          />
+          <button
+            class="hamburger block focus:outline-none lg:hidden"
+            id="menu-btn"
+            type="button"
+          >
+            <span
+              class="hamburger-top"
+            />
+            <span
+              class="hamburger-middle"
+            />
+            <span
+              class="hamburger-bottom"
+            />
+          </button>
+          <div
+            class="z-100 absolute left-6 right-6 top-20 rounded-lg bg-darkViolet p-6 hidden"
+            id="menu"
+          >
+            <div
+              class="flex w-full flex-col items-center justify-center space-y-6 rounded-sm font-bold text-white"
+            >
+              <a
+                class="w-full text-center"
+                href="#features"
+              >
+                features
+              </a>
+              <a
+                class="w-full text-center"
+                href="#pricing"
+              >
+                pricing
+              </a>
+              <a
+                class="w-full text-center"
+                href="#resources"
+              >
+                resources
+              </a>
+              <a
+                class="w-full text-center"
+                href="#login"
+              >
+                login
+              </a>
+              <a
+                class="w-full text-center"
+                href="#signup"
+              >
+                signup
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section
+      id="Hero"
+    >
+      <div
+        class="container mx-auto flex flex-col-reverse p-6 lg:flex-row"
+      >
+        <div
+          class="mb-44 flex flex-col space-y-10 lg:mb-52 lg:mt-16 lg:w-1/2"
+        >
+          <h1
+            class="text-center text-5xl font-bold lg:max-w-md lg:text-left lg:text-6xl"
+          >
+            More than just shorter links
+          </h1>
+          <p
+            class="text-center text-2xl text-gray-400 lg:max-w-md lg:text-left"
+          >
+            Build your brand's recognition and get detailed insights on how your links are performing.
+          </p>
+          <div
+            class="mx-auto lg:mx-0"
+          >
+            <a
+              class="rounded-full bg-cyan-400 px-10 py-5 text-2xl font-bold text-white hover:opacity-70 lg:py-4"
+              href="#"
+            >
+              Get Started
+            </a>
+          </div>
+        </div>
+        <div
+          class="md:w-180 mx-auto mb-24 lg:mb-0 lg:w-1/2"
+        >
+          <img
+            alt=""
+            class="w-auto"
+            data-nimg="1"
+            decoding="async"
+            height="0"
+            loading="lazy"
+            src="/images/illustration-working.svg"
+            style="color: transparent;"
+            width="0"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      class="relative bg-gray-100"
+      id="shorten"
+    >
+      <div
+        class="mx-auto max-w-4xl space-y-6 p-6"
+      >
+        <form
+          class="relative -mt-20 flex w-full flex-col space-y-4 rounded-lg bg-violet-600 p-10 md:flex-row md:space-y-0 md:space-x-3 "
+          id="link-form"
+        >
+          <input
+            class="flex-1 rounded-lg border-2 p-3 placeholder-yellow-500 focus:outline-none"
+            placeholder="Shorten a link here"
+            type="url"
+            value=""
+          />
+          <button
+            class="focus:outline-non rounded-lg bg-cyan-400 px-10 py-3 text-white hover:bg-cyan-200"
+            type="button"
+          >
+            Shorten It!
+          </button>
+          <div
+            class="absolute bottom-2 left-7 rounded-sm border-2 border-red-900 bg-white px-2 text-sm italic text-red-900 hidden"
+            id="err-msg"
+          />
+        </form>
+        <div
+          class="flex w-full flex-col items-center justify-between rounded-lg bg-white p-6 md:flex-row"
+        >
+          <p
+            class="text-center font-bold text-veryDarkViolet md:text-left"
+          >
+            www.google.com.tr
+          </p>
+          <div
+            class="flex flex-1 flex-col items-center justify-end space-x-4 space-y-2 md:flex-row md:space-y-0"
+          >
+            <div
+              class="font-bold text-cyan-400"
+            >
+              https://shrtco.de/jPLTQs
+            </div>
+            <button
+              class="rounded-lg bg-cyan-400 p-2 px-8 text-white hover:opacity-70 focus:outline-none"
+            >
+              Copy
+            </button>
+          </div>
+           
+        </div>
+      </div>
+    </section>
+    <section
+      class="bg-gray-100 py-24"
+      id="stats"
+    >
+      <div
+        class="container mx-auto px-3"
+      >
+        <h2
+          class="mb-6 text-center text-4xl font-bold"
+        >
+          Advanced Statistics
+        </h2>
+        <p
+          class="mx-auto max-w-xs text-center text-gray-400 md:max-w-md"
+        >
+          Track how your links are performing across the web with our advanced statistics dashboard.
+        </p>
+      </div>
+    </section>
+    <section
+      class="bg-gray-100 pb-32"
+      id="features"
+    >
+      <div
+        class="container relative mx-auto flex flex-col items-start px-6 md:flex-row md:space-x-7"
+      >
+        <div
+          class="absolute top-24 left-16 hidden h-3 w-10/12 bg-cyan-500 md:block"
+        />
+        <div
+          class="absolute left-1/2 -ml-1 h-full w-2 bg-cyan-500 md:hidden"
+        />
+        <div
+          class="relative mb-24 flex flex-col space-y-6 rounded-lg bg-white p-6 last:mb-0 md:w-1/3 md:last:mt-16 md:even:mt-8"
+        >
+          <div
+            class="absolute left-1/2 -top-10 -ml-10 md:left-16"
+          >
+            <div
+              class="flex h-20 w-20 items-center justify-center rounded-full bg-veryDarkViolet p-4"
+            >
+              <img
+                alt=""
+                class="w-auto"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/images/icon-brand-recognition.svg"
+                style="color: transparent;"
+                width="0"
+              />
+            </div>
+          </div>
+          <h5
+            class="pt-6 text-center text-xl font-bold capitalize md:text-left"
+          >
+            Brand Recognition
+          </h5>
+          <p
+            class="text-center text-gray-400 md:text-left"
+          >
+            Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </div>
+        <div
+          class="relative mb-24 flex flex-col space-y-6 rounded-lg bg-white p-6 last:mb-0 md:w-1/3 md:last:mt-16 md:even:mt-8"
+        >
+          <div
+            class="absolute left-1/2 -top-10 -ml-10 md:left-16"
+          >
+            <div
+              class="flex h-20 w-20 items-center justify-center rounded-full bg-veryDarkViolet p-4"
+            >
+              <img
+                alt=""
+                class="w-auto"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="images/icon-detailed-records.svg"
+                style="color: transparent;"
+                width="0"
+              />
+            </div>
+          </div>
+          <h5
+            class="pt-6 text-center text-xl font-bold capitalize md:text-left"
+          >
+            Detailed records
+          </h5>
+          <p
+            class="text-center text-gray-400 md:text-left"
+          >
+             Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
+          </p>
+        </div>
+        <div
+          class="relative mb-24 flex flex-col space-y-6 rounded-lg bg-white p-6 last:mb-0 md:w-1/3 md:last:mt-16 md:even:mt-8"
+        >
+          <div
+            class="absolute left-1/2 -top-10 -ml-10 md:left-16"
+          >
+            <div
+              class="flex h-20 w-20 items-center justify-center rounded-full bg-veryDarkViolet p-4"
+            >
+              <img
+                alt=""
+                class="w-auto"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/images/icon-fully-customizable.svg"
+                style="color: transparent;"
+                width="0"
+              />
+            </div>
+          </div>
+          <h5
+            class="pt-6 text-center text-xl font-bold capitalize md:text-left"
+          >
+            Fully customizable
+          </h5>
+          <p
+            class="text-center text-gray-400 md:text-left"
+          >
+             Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="bg-darkViolet py-24"
+      id="cta"
+    >
+      <div
+        class="flex flex-col space-y-6 p-2"
+      >
+        <h5
+          class="mx-auto space-y-10 text-center text-4xl font-bold text-white"
+        >
+          Boost your links today
+        </h5>
+        <button
+          class="bg-cyan hover:bg-cyanLlight mx-auto rounded-full px-10 py-5 text-2xl font-bold text-white focus:outline-none md:py-3 md:text-base"
+        >
+          Get Started
+        </button>
+      </div>
+    </section>
+    <footer
+      class="bg-veryDarkViolet py-16"
+    >
+      <div
+        class="container mx-auto flex flex-col items-center justify-between space-y-16 md:flex-row md:items-start md:space-y-0"
+      >
+        <img
+          alt=""
+          class="w-auto"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          src="images/logo.svg"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="flex flex-col space-y-16 md:flex-row md:space-x-20 md:space-y-0"
+        >
+          <div
+            class="flex w-full flex-col items-center md:items-start"
+          >
+            <div
+              class="mb-5 font-bold capitalize text-white"
+            >
+              Features
+            </div>
+            <div
+              class="flex flex-col items-center space-y-3 md:items-start"
+            >
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="/#link-shortening"
+              >
+                link shortening
+              </a>
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="/#branded-links"
+              >
+                branded links
+              </a>
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="/#analytics"
+              >
+                analytics
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex w-full flex-col items-center md:items-start"
+          >
+            <div
+              class="mb-5 font-bold capitalize text-white"
+            >
+              Resources
+            </div>
+            <div
+              class="flex flex-col items-center space-y-3 md:items-start"
+            >
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="#blog"
+              >
+                blog
+              </a>
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="#developers"
+              >
+                developers
+              </a>
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="#support"
+              >
+                support
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex w-full flex-col items-center md:items-start"
+          >
+            <div
+              class="mb-5 font-bold capitalize text-white"
+            >
+              Company
+            </div>
+            <div
+              class="flex flex-col items-center space-y-3 md:items-start"
+            >
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="/about"
+              >
+                about
+              </a>
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="/our-team"
+              >
+                our team
+              </a>
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="/#careers"
+              >
+                careers
+              </a>
+              <a
+                class="hover:text-cyan capitalize text-grayishViolet"
+                href="/#contact"
+              >
+                contact
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex space-x-6"
+        >
+          <a
+            href="#"
+          >
+            <img
+              alt="facebook"
+              class="ficon w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="images/icon-facebook.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+          <a
+            href="#"
+          >
+            <img
+              alt="twitter"
+              class="ficon w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="images/icon-twitter.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+          <a
+            href="#"
+          >
+            <img
+              alt="pinterest"
+              class="ficon w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="images/icon-pinterest.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+          <a
+            href="#"
+          >
+            <img
+              alt="instagram"
+              class="ficon w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="0"
+              loading="lazy"
+              src="images/icon-instagram.svg"
+              style="color: transparent;"
+              width="0"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
