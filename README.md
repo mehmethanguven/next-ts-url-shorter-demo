@@ -16,7 +16,7 @@ If you like please give a star.
 
 ## Live on Vercel
 
-<a href="https://next-ts-url-shorter-demo-mehmethanguven.vercel.app//" target="_blank">Live Preview</a>
+<a href="https://next-ts-url-shorter-demo-mehmethanguven.vercel.app" target="_blank">Live Preview</a>
 
 ## Some Screenshots
 
