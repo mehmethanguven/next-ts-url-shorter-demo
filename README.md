@@ -5,6 +5,8 @@ This is a Next.js shorten url links & landing page starter (Next.js - Typescript
 Mehmethan Guven
 <br/>
 <a href='mailto:mehmethanguven@gmail.com<'>mehmethanguven@gmail.com</a>
+<br/>
+Hire me!
 
 ## Support
 
